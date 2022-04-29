@@ -3,5 +3,68 @@ body{
 }
 #site-title{
   color: navy;
-  font-family: fantasy;
+  font-family: Trebuchet MS sans-serif;
+}
+
+.about-me-follow{
+
+}
+
+body{
+  font-family: Garamond serif;
+}
+
+.hideable{
+  position: absolute;
+  left: 9999px;
+  top: 9999px;
+  width: 200px;
+}
+
+.aboutView{
+position: relative !important;
+opacity: 1 !important;
+width: 100% !important;
+
+}
+
+.projectView{
+position: relative !important;
+opacity: 1 !important;
+width: 100% !important;
+
+}
+
+img{
+  width: 100%;
+  height: 85%;
+}
+
+button{
+  background-color: rgb(115, 147, 179);
+  color: black;
+  border-style: double;
+  border-color: rgb(25, 25, 60);
+  border-collapse: collapse;
+  margin: 5px;
+}
+
+button:hover{
+opacity: 0.8;
+
+}
+
+button:active{
+opacity: 0.6;
+}
+
+
+
+div .links a{
+ margin-right: 5%;
+}
+
+div .links h3{
+  color: navy;
+  font-family: Trebuchet MS sans-serif;
 }
