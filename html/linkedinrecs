@@ -1,0 +1,52 @@
+For your upcoming resume (aka LinkedIn profile) reviews, please have a first-round go at your LinkedIn profiles. We will be generating your resume directly from LinkedIn. Remember you have < 10 seconds to make an impression. This means:
+
+Bullets only (no paragraphs)
+Strong verbs (Implemented... not Assisted; Created... not Learned)
+Only Stuff, no Fluff (what you did, not what you'd like to do)
+Exhibit confidence in your wording
+You must cross-reference any skills mentioned in the place you used them, and how
+Your Experience section should include your time at Skill Distillery (as well as a brief mention again within the Education section).
+
+Here are some example entries (your mileage may vary):
+
+About
+Recent graduate of intensive Java Full-Stack coding bootcamp, looking for challenging software development position. < Something about yourself. Example: US Air Force veteran with experience in space operations, cybersecurity, and software development. >
+
+Technologies:
+Languages: Java / Java EE
+Web: JSON, JavaScript, HTML, CSS, Bootstrap
+Database: SQL, JPA, JDBC, JPQL
+APIs: REST, JSON
+Methodologies: TDD
+Frameworks: Spring Boot, Agile, Scrum, Angular
+Configuration Management: Git
+<Clearance: Active TS / SCI>
+
+
+Then in your Experience section:
+
+Java Full Stack Developer Bootcamp - Graduate
+Company Name Skill Distillery
+Dates xxx-yyy
+
+- Implemented full stack applications in Java, SQL, JavaScript, Angular, Spring, REST, JPA
+- Created REST services
+- Implemented Spring Data JPA Repositories
+- Designed and implemented front end interfaces with HTML, CSS, JavaScript, Angular, Bootstrap
+- Designed and implemented relational databases
+- Followed Agile framework with Kanban
+- Released code in one week sprints
+- Deployed applications to AWS
+- Applied Test Driven Development with JUnit
+- All work performed remotely using GitHub, Zoom, Slack, Trello
+Also include links to your GitHub, Personal Profile and EC2 deployed project sites.
+
+- Designing and implementing applications in Java, Spring Boot, Spring Data JPA, JUnit, and REST APIs
+- Creating REST services
+- Designing and implementing relational databases
+- Implementing Spring Data JPA repositories
+- Designing and implementing front end components with Angular, HTML, CSS, JavaScript, TypeScript, Bootstrap and Figma
+- Active as both individual contributor and team member in Agile Framework
+- Releasing applications in one week sprints and deploying to AWS EC2
+- Acting in DBA, Scrum, and Developer roles
+- All work done remotely via Zoom, Slack, and Trello

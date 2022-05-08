@@ -19,16 +19,16 @@
     <div class="about-me container">
       <div class="row">
         <div class="col-2 about-me-follow">
-          <img src="images/final.jpeg"></a>
+          <img src="images/me_cool_painting.jpeg"></a>
         </div>
         <div class="col-8 about-me-main">
-          <div id="author-bio" class="aboutView">
-            <h4>About Me</h4>
+          <div id="authorBio" class="aboutView">
+            <h3>About Me</h3>
             <p>My name is Mason, I'm a life-time techie and gamer. The first game I remember playing is Armor Alley on the PC, and I've been hooked ever since. Besides gaming, I love being outdoors, I hike and backpack when time allows and the call of adventure beckons beyond the console. I am married to a wonderful woman named Melissa, and we have an Australian Shepherd name Panda(she's a dog shepherd, not a human shepard from Australia) and two night-terrors mascarading as the common cat: London, and Pipsqueak. I am working towards becoming a full-stack web developer, and hopefully, by the time anyone is looking at this page in the hopes of recruiting me, I will be able to update this to say with confidence that I have accomplished that. </p>
           </div>
 
-          <div id="author-job-skills" class="hideable">
-            <h4>Job Skills</h4>
+          <div id="authorJobSkills" class="hideable">
+            <h3>Job Skills</h3>
 
             <h5>Core Skills</h5>
             <p>Advanced Troubleshooting &emsp; Workflow Management <br>
@@ -44,15 +44,14 @@
             </p>
           </div>
 
-          <div id="author-job-experience" class="hideable">
-            <h4>Job Experience</h4><br>
+          <div id="authorJobExperience" class="hideable">
+            <h3>Job Experience</h3><br>
             <p>I have been working with the GeekSquad at Best Buy for the last 7 years, and was most recently a Geek Squad Manager. Before Best Buy I served as a Persian-Farsi Language Analyst in the Army for 5 years. I have been working in highly analytical, task-focused professions for the better part of 13 years, and while I thought it was time for a change from the retail environment, I have, and will always have a passion for building things and fixing things. Even when the work becomes tedious, finding the way to a solution will bring me joy.</p>
           </div>
 
-          <div id="author-work-beliefs" class="hideable">
-            <h4>Core Beliefs</h4>
+          <div id="authorCoreBeliefs" class="hideable">
+            <h3>Core Beliefs</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
@@ -60,25 +59,20 @@
           <h3>Choose a topic</h3>
 
 
-          <button type="button" name="about-menu1" value="author-bio" id="aboutMeRadio" onclick="changeAboutMe()">About Me</button> <br>
-          <button type="button" name="about-menu2" value="author-job-experience" id="job-experience-radio">Job Experience</button> <br>
-          <button type="button" name="about-menu3" value="author-job-skills" id="job-skills-radio">Job Skills</button> <br>
-          <button type="button" name="about-menu4" value="author-work-beliefs" id="core-beliefs-radio">Core Beliefs</button>
-
-
+          <button type="button" name="about-menu" value="author-bio" id="aboutMeButton" onclick="showAboutMe()">About Me</button> <br>
+          <button type="button" name="about-menu" value="author-job-experience" id="jobExperienceButton" onclick="showJobExperience()">Job Experience</button> <br>
+          <button type="button" name="about-menu" value="author-job-skills" id="jobSkillsButton" onclick="showJobSkills()">Job Skills</button> <br>
+          <button type="button" name="about-menu" value="author-work-beliefs" id="coreBeliefsButton" onclick="showCoreBeliefs()">Core Beliefs</button>
 
         </div>
       </div>
     </div>
+
     <br>
     <hr>
     <br>
 
-    <div class="projects container">
-      <!-- Project Links -->
-    </div>
-
-    <div class="projects container">
+    <div class="projectsContainer">
       <div class="row">
         <div class="col-2">
 
@@ -86,11 +80,18 @@
 
         <div class="col-8 links">
           <h3>Project Description</h3><br>
-          <a href="#proj1" onclick="changeProjectView()">Eventual Project 1</a>
-          <a href="#proj2" onclick="changeProjectView()">Eventual Project 2</a>
-          <a href="#proj3" onclick="changeProjectView()">Eventual Project 3</a>
-          <a href="#proj4" onclick="changeProjectView()">Eventual Project 4</a>
-          <a href="#proj5" onclick="changeProjectView()">Eventual Project 5</a>
+
+          <select class="" name="">
+          <!-- drop down menu -->
+          </select>
+
+          <form class="" action="index.html" method="post">
+            <input type="radio" name="projectRadio" value="" class="projectRadio">Project One</input>
+            <input type="radio" name="projectRadio" value="" class="projectRadio">Project Two</input>
+            <input type="radio" name="projectRadio" value="" class="projectRadio">Project Three</input>
+            <input type="radio" name="projectRadio" value="" class="projectRadio">Project Four</input>
+            <input type="radio" name="projectRadio" value="" class="projectRadio">Project Five</input>
+          </form>
         </div>
       </div>
 
@@ -98,8 +99,6 @@
 
       </div>
 
-      <br>
-      <hr>
       <br>
 
       <div class="row">
@@ -109,11 +108,43 @@
         </div>
 
         <div class="col-8 desc">
-          <p id="proj1" class="projectView"> Project Descriptin (Maybe a README Link?) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p id="proj1" class="projectView"> Project Description (Maybe a README Link?) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p id="proj2" class="hideable"> Project Descriptin (Maybe a README Link?) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p id="proj3" class="hideable"> Project Descriptin (Maybe a README Link?) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p id="proj4" class="hideable"> Project Descriptin (Maybe a README Link?) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p id="proj5" class="hideable"> Project Descriptin (Maybe a README Link?) Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+        </div>
+
+        <div class="col-8 links">
+          <h3> Links </h3>
+          <a href="#proj1" onclick="changeProjectView()">Project One</a>
+          <a href="#proj2" onclick="changeProjectView()">Project Two</a>
+          <a href="#proj3" onclick="changeProjectView()">Project Three</a>
+          <a href="#proj4" onclick="changeProjectView()">Project Four</a>
+          <a href="#proj5" onclick="changeProjectView()">Project Five</a>
+
+        </div>
+
+        <div class="col-2">
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8 box">
+            <br><br>this will be a content box showing something significant<br><br>
+        </div>
+        <div class="col-2">
+
         </div>
 
       </div>
