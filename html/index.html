@@ -20,6 +20,8 @@
       <div class="row">
         <div class="col-2 about-me-follow">
           <img src="images/me_cool_painting.jpeg"></a>
+          <a id="resumeLink" href="images/Resume_Keeney2021.pdf">View Resume</a><br>
+          <a id="linkedInLink" href="">Find Me on LinkedIn</a>
         </div>
         <div class="col-8 about-me-main">
           <div id="authorBio" class="aboutView">
@@ -30,23 +32,128 @@
           <div id="authorJobSkills" class="hideable">
             <h3>Job Skills</h3>
 
-            <h5>Core Skills</h5>
-            <p>Advanced Troubleshooting &emsp; Workflow Management <br>
-            Personnell Management &emsp; Advanced Analytical Training <br>
-            Persian-Farsi Language Analyst &emsp; Leadership Training
-            </p>
+            <h4>Core Skills</h4>
+            <table>
+            <tr>
+              <td>Advanced Troubleshooting</td>
+              <td></td>
+              <td>Workflow Management </td>
+            </tr>
+            <tr>
+              <td>Personnell Management </td>
+              <td></td>
+              <td>Advanced Analytical Training </td>
+            </tr>
+            <tr>
+              <td> Persian-Farsi Language Analyst </td>
+               <td>&emsp;&emsp;&emsp;</td>
+              <td> Leadership Training </td>
+            </tr>
+          </table>
 
-
-            <h5>Programming Skills(in progress)</h5>
-            <p>
-              Java &emsp; HTML &emsp; CSS &emsp; SQL &emsp; Agile &emsp; Javascript<br>
-              Paired Programming &emsp; Database
-            </p>
+            <br>
+            <h4>Technologies</h4>
+            <table>
+              <tr>
+                <td class="tableHead"> Languages </td>
+                <td class="tableHead"> Methodologies </td>
+                <td class="tableHead"> APIs </td>
+              </tr>
+              <tr>
+                <td class="languages">
+                  <ul>
+                    <li> Java </li>
+                    <li> Java EE </li>
+                  </ul>
+                </td>
+                <td class="Methodologies">
+                  <ul>
+                    <li>TDD</li>
+                    <li class="hiddenLi"></li>
+                  </ul>
+                </td>
+                <td class="APIs">
+                  <ul>
+                    <li> REST </li>
+                    <li> JSON </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="tableHead"> Web </td>
+                <td class="tableHead"> Frameworks </td>
+                <td class="tableHead"> Database </td>
+              </tr>
+              <tr>
+                <td class="web">
+                  <ul>
+                    <li> JSON </li>
+                    <li> Javascript </li>
+                    <li> HTML </li>
+                    <li> CSS </li>
+                    <li> Bootstrap </li>
+                  </ul>
+                </td>
+                <td class="Frameworks">
+                  <ul>
+                    <li> Spring Boot </li>
+                    <li> Agile </li>
+                    <li> Scrum </li>
+                    <li> Angular </li>
+                    <li class="hiddenLi"></li>
+                  </ul>
+                </td>
+                <td class="Database">
+                  <ul>
+                    <li> SQL </li>
+                    <li> JPA </li>
+                    <li> JDBC </li>
+                    <li> JPQL </li>
+                    <li class="hiddenLi"></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="tableHead">Configuration Management</td>
+              </tr>
+              <tr>
+                <td class="Configuration">
+                  <ul>
+                    <li> Git </li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
           </div>
 
           <div id="authorJobExperience" class="hideable">
-            <h3>Job Experience</h3><br>
-            <p>I have been working with the GeekSquad at Best Buy for the last 7 years, and was most recently a Geek Squad Manager. Before Best Buy I served as a Persian-Farsi Language Analyst in the Army for 5 years. I have been working in highly analytical, task-focused professions for the better part of 13 years, and while I thought it was time for a change from the retail environment, I have, and will always have a passion for building things and fixing things. Even when the work becomes tedious, finding the way to a solution will bring me joy.</p>
+            <h3>Job Experience</h3>
+            <h5>Java Full-Stack Developer Bootcamp - Graduate</h5>
+              <ul>
+                <li> Skill Distillery </li>
+                <li> 16 March 2022 - 05 July 2022 </li>
+              </ul>
+              <hr>
+            <h5>Geek Squad Manager</h5>
+              <ul>
+                <li> Best Buy </li>
+                <li> January 2020 - March 2022 </li>
+              </ul>
+              <hr>
+            <h5>Geek Squad Advanced-Repair Agent</h5>
+              <ul>
+                <li> Best Buy </li>
+                <li> 2014-2020 </li>
+              </ul>
+              <hr>
+            <h5>Persian-Farsi Langugage Analyst</h5>
+              <ul>
+                <li> U.S. Army </li>
+                <li> 2009 - 2014
+              </ul>
+
           </div>
 
           <div id="authorCoreBeliefs" class="hideable">
@@ -56,8 +163,6 @@
           </div>
         </div>
         <div class="col-2 about-me-follow">
-          <h3>Choose a topic</h3>
-
 
           <button type="button" name="about-menu" value="author-bio" id="aboutMeButton" onclick="showAboutMe()">About Me</button> <br>
           <button type="button" name="about-menu" value="author-job-experience" id="jobExperienceButton" onclick="showJobExperience()">Job Experience</button> <br>
